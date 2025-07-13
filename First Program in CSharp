@@ -5,10 +5,26 @@ class Program
   static void Main()
   {
      PrintToConsole();
+     VariablesAndDataTypes();
   }
 
   static void PrintToConsole()
   {
     Console.WriteLine("Hello World");
+  }
+
+  static void VariablesAndDataTypes()
+  {
+    int age = 30;
+    Console.WriteLine(age);
+
+    float temperature = 20.4f;
+    Console.WriteLine(temperature);
+
+    double interest = 5.53;
+    Console.WriteLine("Interest:" + interest);
+
+    decimal stockPrice = 4.562144565M;
+    Console.WriteLine("stock price:" + stockPrice);
   }
 }
