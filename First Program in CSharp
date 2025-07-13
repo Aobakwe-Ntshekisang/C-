@@ -22,9 +22,18 @@ class Program
     Console.WriteLine(temperature);
 
     double interest = 5.53;
-    Console.WriteLine("Interest:" + interest);
+    Console.WriteLine("Interest:" + interest); 
 
-    decimal stockPrice = 4.562144565M;
+    decimal stockPrice = 4.562144565M; //decimal is more presice than float & double
     Console.WriteLine("stock price:" + stockPrice);
+
+    char grade = 'A'; //char defined by ''
+    Console.WriteLine(grade);
+
+    string name = "Aobakwe"; //string defined by ""
+    Console.WriteLine($"My name is {name}.");
+
+    bool isStudent = true;
+    Console.WriteLine(isStudent);
   }
 }
